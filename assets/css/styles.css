@@ -53,6 +53,10 @@ a{
     overflow: hidden;
 }
 
+.break-all{
+    word-break: break-all;
+}
+
 /* Active */
 .nav li.active a,
 .nav .list-item a:hover{
@@ -368,15 +372,12 @@ a{
     align-items: center;
 }
 
-.popular-bottom .title{
+.popular-bottom .title a{
+    padding-right: 8px;
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.67; /* 166.667% */
-    display: -webkit-box;
-    -webkit-line-clamp: var(--line-clamp, 2);
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .popular-bottom .head img{
@@ -394,10 +395,6 @@ a{
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.857; /* 185.714% */
-    display: -webkit-box;
-    -webkit-line-clamp: var(--line-clamp, 2);
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .popular-bottom .buying {
