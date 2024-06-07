@@ -288,6 +288,7 @@ a{
 /* Popular */
 .popular{
     padding-top: 200px;
+    padding-bottom: 65px;
 }
 
 .popular-top{
@@ -416,5 +417,80 @@ a{
     color: #fff;
 }
 
+/* Feedback */
+.feedback{
+   margin-top: 135px;
+   padding: 96px 0;
+   background: #2E2100;
+}
 
+.feedback .feedback-list{
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback-item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+
+.feedback-item .info .avatar{
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback-item .info .name{
+    margin-top: 18px;
+    color: #F7F7F7;
+    font-family: var(--title-font);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.42; /* 141.667% */
+}
+
+.feedback .info .desc{
+    margin-top: 4px;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
+
+
+.feedback .dots{
+    display: flex;
+    margin-top: 28px;
+}
+
+.feedback .dot{
+    background: #634700;
+    margin-right: 6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.feedback .dot-active{
+    background: var(--primary-color);
+    cursor: default;
+}
+
+.feedback-item .body{
+    width: 65.8%;
+}
+
+.feedback-item .body blockquote{
+    margin-left: 30px;
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54; /* 153.846% */
+}
 
